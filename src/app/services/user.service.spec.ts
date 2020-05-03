@@ -5,7 +5,7 @@ import {HttpClientTestingModule, HttpTestingController} from "@angular/common/ht
 import * as faker from 'faker';
 import {HttpClient, HttpResponse} from "@angular/common/http";
 import {environment} from "../../environments/environment";
-import {User} from "../models/User.model";
+import {User} from "../models/users.model";
 
 
 describe('UserService', () => {
